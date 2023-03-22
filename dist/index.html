@@ -48,7 +48,7 @@
             <div class="collapse mt-2" id="collapseExample">
               <div class="card card-body">
                 <form class="w-100" role="search">
-                  <input type="search" class="form-control" placeholder="Add Project" aria-label="Search">
+                  <input type="search" class="form-control" placeholder="New Project" aria-label="Search">
                   <button type="submit" class="btn btn-sm btn-success w-100 mt-2">Add This Project</button>
                 </form>
               </div>
@@ -80,24 +80,12 @@
         <!-- TODO - Container - Start -->
         <div class="bg-light border rounded-3 todo-container">
           <div class="d-flex justify-content-center align-items-center bg-primary bg-opacity-25 sticky-top py-4">
-            <form class="w-50 me-3" role="search">
-              <input type="search" class="form-control" placeholder="Add Todo" aria-label="Search">
+            <form class="w-50 me-3" id="todoForm" role="search">
+              <input type="search" class="form-control" id="todoInput" placeholder="New Todo" aria-label="Search">
             </form>
-            <button type="button" class="btn btn-primary fw-bold">Add Todo</button>
+            <button type="button" id="addTodoButton" class="btn btn-primary fw-bold">Add New Todo</button>
           </div>
-          <ul class="list-group px-4 my-4">
-            <li class="list-group-item">
-              <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-              <label class="form-check-label" for="firstCheckbox">First checkbox</label>
-            </li>
-            <li class="list-group-item">
-              <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
-              <label class="form-check-label" for="secondCheckbox">Second checkbox</label>
-            </li>
-            <li class="list-group-item">
-              <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
-              <label class="form-check-label" for="thirdCheckbox">Third checkbox</label>
-            </li>
+          <ul class="list-group px-4 my-4" id="todoList">
           </ul>
         </div>
         <!-- TODO - Container - End -->

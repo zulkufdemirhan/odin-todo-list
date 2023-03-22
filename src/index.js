@@ -1,4 +1,4 @@
-import UI from './modules/UI';
+import { todo } from "./modules/todo";
 
-document.body.appendChild(UI.component());
+todo();
 // npx webpack
