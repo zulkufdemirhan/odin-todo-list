@@ -1,4 +1,4 @@
-import { todo } from "./modules/todo";
+import App from "./modules/app";
 
-todo();
+App();
 // npx webpack

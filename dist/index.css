@@ -8,3 +8,13 @@
   overflow: auto;
   height: 84vh;
 }
+
+.project-list-flex{
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-check-label{
+  width: 90% !important;
+}
